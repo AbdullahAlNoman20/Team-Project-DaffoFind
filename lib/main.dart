@@ -3,11 +3,11 @@ import 'package:flutter/foundation.dart'; // For detecting platform (web vs mobi
 import 'package:flutter/material.dart'; // Flutter UI framework
 
 // Import all app pages/screens
-// import 'package:flutter_app_one/pages/Home.dart';
-// import 'package:flutter_app_one/pages/Register.dart';
-// import 'package:flutter_app_one/pages/login.dart';
-// import 'package:flutter_app_one/pages/LostPage.dart';
-// import 'package:flutter_app_one/pages/FindPage.dart';
+import 'package:flutter_app_one/pages/Home.dart';
+import 'package:flutter_app_one/pages/Register.dart';
+import 'package:flutter_app_one/pages/login.dart';
+import 'package:flutter_app_one/pages/LostPage.dart';
+import 'package:flutter_app_one/pages/FindPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); // Ensures that binding is initialized before using platform channels
