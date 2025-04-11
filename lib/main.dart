@@ -45,7 +45,13 @@ class MyApp extends StatelessWidget {
       initialRoute: '/', // Default route (starts at Login page)
       
       // Route definitions for named navigation
-      
+      routes: {
+        '/': (context) => Login(), // Login screen as default
+        '/register': (context) => Register(), // Registration screen
+        '/home': (context) => Home(), // Home screen after login/register
+        '/lost': (context) => LostPage(), // Page to report lost items
+        '/found': (context) => FindPage(), // Page to report found items
+      },
     );
   }
 }
